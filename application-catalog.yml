@@ -1,0 +1,16 @@
+---
+apiVersion: "captain/v1"
+kind: "ApplicationCatalog"
+metadata:
+  name: "to-html"
+  repository: "weckerly/to-html"
+spec:
+  repoType: "OTHER"
+  teamSlugs: []
+  docs:
+    shortOverviewPath: "docs/captain/short-overview.md"
+    purposePath: "docs/captain/purpose.md"
+    longOverviewPath: "docs/captain/long-overview.md"
+    additionalDocumentPaths:
+    - "CHANGELOG.md"
+    - "README.md"
